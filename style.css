@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    margin:0;
+    background-color: #3AAFA9;
+}
+
+.listContainer{
+
+    width:50vw;
+    height: 100vh;
+    border:0px solid;
+
+    position: absolute;
+    left: 25%;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    font-family: 'Anton', sans-serif;
+}
+.listContainer>h1{
+    font-size: 300%;
+}
+.addContainer{
+    width:100%;
+    height: 3rem;
+    border:0px solid;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:80%;
+    height:100%;
+}
+.add{
+    width:20%;
+    height: 110%;
+    border:0px solid;
+    border-radius: 0% 40px 40px 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B7A78;
+    color: #FEFFFF;
+}
+.newElement{
+    width:100%;
+    height: 3rem;
+    border:0.1px  solid;
+
+    margin-top: 12%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .4);
+
+    background-color: white;
+}
+.newText{
+    width:80%;
+    height:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteButton{
+    width:20%;
+    height: 100%;
+    border: solid;
+
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
